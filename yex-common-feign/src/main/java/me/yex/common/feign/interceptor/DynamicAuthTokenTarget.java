@@ -10,7 +10,7 @@ import static feign.Util.emptyToNull;
 
 /**
  * @author yex
- * @description cn.zhenhealth.health.common.feign.target
+ * @description me.yex.common.feign.target
  */
 public class DynamicAuthTokenTarget<T> implements Target<T> {
 

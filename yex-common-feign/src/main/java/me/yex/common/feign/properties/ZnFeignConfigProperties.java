@@ -10,7 +10,7 @@ import java.util.List;
 
 /**
  * @author yex
- * @description me.yex.health.common.feign.properties
+ * @description me.yex.common.feign.properties
  */
 
 @Data
