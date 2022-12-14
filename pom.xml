@@ -87,7 +87,6 @@
         </dependency>
     </dependencies>
 
-
     <build>
         <finalName>${project.name}</finalName>
         <resources>
