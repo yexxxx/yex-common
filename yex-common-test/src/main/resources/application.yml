@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: W01fstudio
+    url: jdbc:mysql://115.29.145.73:3306/zn-health-transaction?characterEncoding=utf8&useUnicode=true&zeroDateTimeBehavior=convertToNull&useSSL=false&allowMultiQueries=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=Asia/Shanghai
+
+zn:
+  es:
+    uris: 192.168.111.10:9200
+    read-timeout: 50
+  feign:
+    feign-services:
+    - name: memberService
+      target: me.yex.common.test.feign.member.MemberService
+      url: http://127.0.0.1:9906
+    - name: paymentService
+      target: me.yex.common.test.feign.payment.PaymentService
+      url: http://127.0.0.1:9907
+    connect-timeout: 10000
+

@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+ me.yex.common.core.config.JacksonConfiguration,\
+  me.yex.common.core.config.WebMvcConfiguration

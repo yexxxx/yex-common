@@ -1,0 +1,5 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  me.yex.common.client.config.WebClientMvcConfiguration,\
+  me.yex.common.client.interceptor.UserInfoInterceptor,\
+  me.yex.common.client.interceptor.FeignUserInfoInterceptor,\
+  me.yex.common.client.util.TokenUtil

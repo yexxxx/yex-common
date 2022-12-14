@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+me.yex.common.es.config.ElasticsearchConfiguration

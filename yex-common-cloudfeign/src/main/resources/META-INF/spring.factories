@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+me.yex.cloudfeign.config.CloudFeignConfiguration,\
+  me.yex.cloudfeign.interceptor.FeignTokenInterceptor

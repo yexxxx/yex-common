@@ -1,0 +1,44 @@
+{"groups": [
+    {
+        "name": "zn.es",
+        "type": "me.yex.common.es.properties.ElasticsearchProperties",
+        "sourceType": "me.yex.common.es.properties.ElasticsearchProperties"
+    }
+],
+"properties": [
+     {
+          "name": "zn.es.connection-timeout",
+          "type": "java.time.Duration",
+          "description": "Connection timeout.",
+          "sourceType": "me.yex.common.es.properties.ElasticsearchProperties",
+          "defaultValue": "1s"
+        },
+        {
+          "name": "zn.es.password",
+          "type": "java.lang.String",
+          "description": "Credentials password.",
+          "sourceType": "me.yex.common.es.properties.ElasticsearchProperties"
+        },
+        {
+          "name": "zn.es.read-timeout",
+          "type": "java.time.Duration",
+          "description": "Read timeout.",
+          "sourceType": "me.yex.common.es.properties.ElasticsearchProperties",
+          "defaultValue": "30s"
+        },
+        {
+          "name": "zn.es.uris",
+          "type": "java.util.List<java.lang.String>",
+          "description": "Comma-separated list of the Elasticsearch instances to use.",
+          "sourceType": "me.yex.common.es.properties.ElasticsearchProperties",
+          "defaultValue": [
+            "http:\/\/localhost:9200"
+          ]
+        },
+        {
+          "name": "zn.es.username",
+          "type": "java.lang.String",
+          "description": "Credentials username.",
+          "sourceType": "me.yex.common.es.properties.ElasticsearchProperties"
+        }
+]}
